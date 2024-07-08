@@ -15,9 +15,11 @@ if openai_api_key:
 else:
     st.info("Please add your OpenAI API key to continue.")
     st.stop()
+    
 
 # ChatOpenAI 모델 초기화
 chat = ChatOpenAI(temperature=0)
+
 
 # 세션 상태 초기화
 if "messages" not in st.session_state:
