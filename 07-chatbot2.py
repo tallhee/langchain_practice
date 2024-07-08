@@ -1,8 +1,5 @@
 import streamlit as st
 import os
-
-import pip
-pip.install.langchain_openai
 from langchain_openai import ChatOpenAI
 
 # Streamlit UI 설정
