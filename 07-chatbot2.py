@@ -1,6 +1,9 @@
 import streamlit as st
-from langchain_openai import ChatOpenAI
 import os
+
+import pip
+pip.install.langchain_openai
+from langchain_openai import ChatOpenAI
 
 # Streamlit UI 설정
 st.set_page_config(page_title="ChatOpenAI Demo", page_icon=":robot:")
